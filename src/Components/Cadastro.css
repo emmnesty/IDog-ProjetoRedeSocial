@@ -1,0 +1,80 @@
+main {
+  display: flex;
+  background-color: #bcefff;
+  height: 100vh;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.Content {
+  align-items: center;
+  background-color: #90e5ff;
+  border-radius: 0 60px 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+
+.Content h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.Content label {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 10px 0 10px 0;
+}
+
+.Content input {
+  border-radius: 80px;
+  height: 5px;
+  width: 260px;
+  padding: 15px;
+}
+
+.CheckBox {
+  height: 10px !important;
+  background-color: white;
+  border: 2px solid black;
+  color: green;
+  text-align: center;
+  width: 10px !important;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.Content span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.Content a {
+  color: #3aaaff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.btn-login {
+  height: 44px;
+  width: 109px;
+  background: #6497b1;
+  border-radius: 80px;
+  margin-top: 30px;
+}
+
+.img-gatinho {
+  width: 333px;
+  height: 400px;
+}
+
+.Container {
+  background-color: #bcefff;
+  display: flex;
+  align-items: flex-end;
+}
