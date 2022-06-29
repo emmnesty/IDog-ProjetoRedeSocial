@@ -22,7 +22,7 @@ const Login = props => {
           <input className='inputCadastro' type='password' placeholder='Insira sua senha' />
           <h4 className='perdeuSenha'>Perdeu sua senha?</h4>
           <input className='CheckBox' type='checkbox' name='checkbox' value='Termos'></input>
-          <span>Eu aceito os termos de serviço</span>
+          <span>Eu aceito os</span> <a href='Termos'>termos de serviço</a>
 
           <button className='btn-login'>
             Login

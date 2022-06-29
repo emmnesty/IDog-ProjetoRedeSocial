@@ -9,11 +9,12 @@ main {
   background-color: #3aaaff;
   width: 30%;
   display: flex;
+  align-items: flex-end;
 }
 
 .Content {
   display: flex;
-  background-color: #03396c;
+  background-color: #90e5ff;
   width: 70%;
   border-radius: 60px 0px 0px 60px;
   justify-content: center;
@@ -86,10 +87,6 @@ main {
 }
 
 .img-logo {
-  display: flex;
-  position: absolute;
   width: 333px;
   height: 440px;
-  
-
 }
