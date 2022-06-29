@@ -1,0 +1,95 @@
+main {
+  display: flex;
+  background-color: #3aaaff;
+  height: 100vh;
+  flex-grow: 1;
+}
+
+.Container {
+  background-color: #3aaaff;
+  width: 30%;
+  display: flex;
+}
+
+.Content {
+  display: flex;
+  background-color: #03396c;
+  width: 70%;
+  border-radius: 60px 0px 0px 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.Form h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.Form a {
+  color: #3aaaff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.inputCadastro {
+  margin-top: 30px;
+
+  display: flex;
+  border-radius: 80px;
+  height: 47px;
+  width: 260px;
+  padding: 20px;
+}
+
+.Form span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.Form h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 20px;
+}
+
+.CheckBox {
+  background-color: white;
+  border: 2px solid black;
+  color: green;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px 10px 0 0;
+  cursor: pointer;
+}
+
+.btn-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 44px;
+  width: 109px;
+  background: #6497b1;
+  border-radius: 80px;
+  margin-top: 30px;
+}
+
+.img-logo {
+  display: flex;
+  position: absolute;
+  width: 333px;
+  height: 440px;
+  
+
+}
